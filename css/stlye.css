@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 35px;
+    align-items: center;
+
+}
+
+nav ul a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 0.2rem;
+}
+
+button{
+    all: unset;
+    padding: 15px 37px;
+    font-size: 13px;
+    border-radius: 50px;
+    background-color: #f25f3a;
+    color: #FAE2AF;
+    cursor: pointer;
+    box-shadow: 3px 3px 10px #F8A591;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6rem 7rem 5rem !important;
+}
+
+#main-text{
+    width: 40%;
+}
+
+#main-text h1{
+    font-size: 50px;
+    font-weight: 900;
+    color: #242D52;
+}
+
+#main-text p{
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 1rem 0px 3rem;
+    color: #9095AF;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 7rem 5rem !important;
+    position: relative;
+}
+
+#first-section{
+    width: 40%
+}
+
+#first-section h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #242D52;
+}
+
+#first-section p{
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 2rem;
+    color: #9095AF;
+    width: 80%;
+}
+
+#sub-sections{
+    width: 50%;
+}
+
+.a{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-bottom: 30px;
+    margin-top: -40px;
+}
+
+.a h4{
+    background-color: #f25f3a;
+    color: #FAFAFA;
+    padding: 9px 20px;
+    border-radius: 20px;
+    margin-top: 43px;
+    margin-right: 0px;
+    margin-left: 30px;
+}
+
+.a h3{
+    color: #242D52;
+    font-size: 17px;
+    font-weight: 800;
+    margin-top: 50px;
+    margin-left: -30px;
+}
+
+.subject1 p{
+    margin-bottom: 10px;
+    margin-left: 100px;
+    color: #9095AF;
+    width: 80%;
+    line-height: 1.5em;
+}
+
+article h1{
+    margin: 4rem 0px 7rem;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+article .testimonials{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 50px 0;
+    gap: 50px;
+    padding: 10px 50px;
+}
+
+article .testimonials .article-img{
+    text-align: center;
+    width: 11.5em;
+    padding-left: 98px;
+}
+
+article .testimonials .testimony h5{
+    text-align: center;
+    margin: 20px 0;
+    font-size: 1.4em;
+    font-weight: 1000;
+}
+
+article .testimonials .testimony p{
+    text-align: center;
+    color: #AB95AF;
+}
+
+article button{
+    margin: 5rem 0 9rem 0;
+    cursor: pointer;
+    position: relative;
+    left: 44%;
+    top: 50%;
+}
+
+#lower-section{
+    background-color: #f25f3a;
+    color: #FAFAFA;
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 7rem;
+    align-items: center;
+}
+
+#lower-section h1{
+    font-size: 41px;
+    width: 45%;
+}
+
+#lower-section button{
+    background-color: #FAFAFA;
+    color: #f25f3a;
+}
+
+footer{
+    background-color: #1D1E25;
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 0 5rem 0;
+}
+
+.first-footer{
+    padding-top: 1.5rem;
+}
+
+.first-footer img{
+    margin-bottom: 3rem;
+}
+
+.icons{
+    display: flex;
+    gap: 5px;
+    color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+.icons a{
+    text-decoration: none;
+}
+
+.icons a i{
+    color: white;
+    font-size: 24px;
+    border-radius: 50px;
+    margin: 3px;
+}
+
+.middle-footer{
+    display: flex;
+    gap: 5rem;
+}
+
+a{
+    display: block;
+    list-style-type: none;
+    text-decoration: none;
+    margin-top: 22px;
+    color: #FAFAFA;
+    font-size: 15px; 
+}
+
+#email{
+    border-radius: 20px;
+    padding: 11px;
+    margin-top: 2rem;
+}
+
+#submit-button{
+    background-color: #f25f3a;
+    padding: 12px 25px;
+    border-radius: 35px;
+    color: #FAFAFA;
+    font-weight: 700;
+}
+
+.copyright{
+    color: #FAFAFA;
+    font-size: 12px;
+    margin-top: 4rem;
+}
+
+
+
+
+
