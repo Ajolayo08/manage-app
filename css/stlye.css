@@ -28,6 +28,14 @@ nav ul a{
     margin-top: 0.2rem;
 }
 
+nav ul a:hover{
+    color: #9095AF;
+}
+
+html,body{
+    scroll-behavior: smooth;
+}
+
 button{
     all: unset;
     padding: 15px 37px;
@@ -37,6 +45,11 @@ button{
     color: #FAE2AF;
     cursor: pointer;
     box-shadow: 3px 3px 10px #F8A591;
+}
+
+button:hover{
+    background-color: #AB95AF;
+    box-shadow: 3px 3px 10px #f25f3a;
 }
 
 main{
@@ -218,6 +231,10 @@ footer{
     font-size: 24px;
     border-radius: 50px;
     margin: 3px;
+}
+
+.icons a i:hover{
+    color: #f25f3a;
 }
 
 .middle-footer{
