@@ -398,6 +398,12 @@ a {
 
 @media screen and (max-width: 576px){
 
+    body {
+        background-size: 550px;
+        background-position: top -170px right -230px;
+        max-width: fit-content;
+    }
+
     .togglers{
         display: block;
         }
@@ -506,8 +512,19 @@ a {
 
 @media screen and (max-width: 480px){
 
+    *{
+        max-width: 110%;
+    }
+
     nav{
         padding: 0rem 2rem;
+        justify-content: space-around;
+        padding-left: 150px;
+    }
+
+    nav img{
+        margin-right: 200px;
+        width: 100px;
     }
 
     main{
