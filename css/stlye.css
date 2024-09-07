@@ -1,18 +1,30 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Be Vietnam Pro', sans-serif;;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    
 }
 
-nav{
+body {
+    background-image: url(/img/water\ image.svg);
+    background-repeat: no-repeat;
+    background-position: top -210px right -190px;
+}
+
+.togglers{
+    display: none;
+}
+
+
+nav {
     display: flex;
     justify-content: space-around;
     margin-top: 2rem;
     align-items: center;
 }
 
-nav ul{
+nav ul {
     display: flex;
     list-style: none;
     gap: 35px;
@@ -20,7 +32,7 @@ nav ul{
 
 }
 
-nav ul a{
+nav ul a {
     text-decoration: none;
     color: black;
     cursor: pointer;
@@ -28,15 +40,16 @@ nav ul a{
     margin-top: 0.2rem;
 }
 
-nav ul a:hover{
+nav ul a:hover {
     color: #9095AF;
 }
 
-html,body{
+html,
+body {
     scroll-behavior: smooth;
 }
 
-button{
+button {
     all: unset;
     padding: 15px 37px;
     font-size: 13px;
@@ -47,53 +60,53 @@ button{
     box-shadow: 3px 3px 10px #F8A591;
 }
 
-button:hover{
+button:hover {
     background-color: #AB95AF;
     box-shadow: 3px 3px 10px #f25f3a;
 }
 
-main{
+main {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 6rem 7rem 5rem !important;
+    padding: 6rem 7rem 5rem 7rem;
 }
 
-#main-text{
+#main-text {
     width: 40%;
 }
 
-#main-text h1{
+#main-text h1 {
     font-size: 50px;
     font-weight: 900;
     color: #242D52;
 }
 
-#main-text p{
+#main-text p {
     font-size: 20px;
     line-height: 1.5;
     margin: 1rem 0px 3rem;
     color: #9095AF;
 }
 
-section{
+section {
     display: flex;
     justify-content: space-between;
-    padding: 2rem 7rem 5rem !important;
+    padding: 2rem 7rem 5rem;
     position: relative;
 }
 
-#first-section{
+#first-section {
     width: 40%
 }
 
-#first-section h1{
+#first-section h1 {
     font-size: 40px;
     font-weight: 700;
     color: #242D52;
 }
 
-#first-section p{
+#first-section p {
     font-size: 18px;
     line-height: 1.5;
     margin-top: 2rem;
@@ -101,11 +114,11 @@ section{
     width: 80%;
 }
 
-#sub-sections{
+#sub-sections {
     width: 50%;
 }
 
-.a{
+.a {
     display: flex;
     flex-direction: row;
     gap: 50px;
@@ -113,7 +126,7 @@ section{
     margin-top: -40px;
 }
 
-.a h4{
+.a h4 {
     background-color: #f25f3a;
     color: #FAFAFA;
     padding: 9px 20px;
@@ -123,7 +136,7 @@ section{
     margin-left: 30px;
 }
 
-.a h3{
+.a h3 {
     color: #242D52;
     font-size: 17px;
     font-weight: 800;
@@ -131,7 +144,7 @@ section{
     margin-left: -30px;
 }
 
-.subject1 p{
+.subject1 p {
     margin-bottom: 10px;
     margin-left: 100px;
     color: #9095AF;
@@ -139,14 +152,14 @@ section{
     line-height: 1.5em;
 }
 
-article h1{
+article h1 {
     margin: 4rem 0px 7rem;
     font-size: 40px;
     font-weight: 700;
     text-align: center;
 }
 
-article .testimonials{
+article .testimonials {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin: 50px 0;
@@ -154,25 +167,25 @@ article .testimonials{
     padding: 10px 50px;
 }
 
-article .testimonials .article-img{
+article .testimonials .article-img {
     text-align: center;
     width: 11.5em;
     padding-left: 98px;
 }
 
-article .testimonials .testimony h5{
+article .testimonials .testimony h5 {
     text-align: center;
     margin: 20px 0;
     font-size: 1.4em;
     font-weight: 1000;
 }
 
-article .testimonials .testimony p{
+article .testimonials .testimony p {
     text-align: center;
     color: #AB95AF;
 }
 
-article button{
+article button {
     margin: 5rem 0 9rem 0;
     cursor: pointer;
     position: relative;
@@ -180,7 +193,7 @@ article button{
     top: 50%;
 }
 
-#lower-section{
+#lower-section {
     background-color: #f25f3a;
     color: #FAFAFA;
     display: flex;
@@ -189,32 +202,32 @@ article button{
     align-items: center;
 }
 
-#lower-section h1{
+#lower-section h1 {
     font-size: 41px;
     width: 45%;
 }
 
-#lower-section button{
+#lower-section button {
     background-color: #FAFAFA;
     color: #f25f3a;
 }
 
-footer{
+footer {
     background-color: #1D1E25;
     display: flex;
     justify-content: space-around;
     padding: 2rem 0 5rem 0;
 }
 
-.first-footer{
+.first-footer {
     padding-top: 1.5rem;
 }
 
-.first-footer img{
+.first-footer img {
     margin-bottom: 3rem;
 }
 
-.icons{
+.icons {
     display: flex;
     gap: 5px;
     color: white;
@@ -222,42 +235,42 @@ footer{
     text-decoration: none;
 }
 
-.icons a{
+.icons a {
     text-decoration: none;
 }
 
-.icons a i{
+.icons a i {
     color: white;
     font-size: 24px;
     border-radius: 50px;
     margin: 3px;
 }
 
-.icons a i:hover{
+.icons a i:hover {
     color: #f25f3a;
 }
 
-.middle-footer{
+.middle-footer {
     display: flex;
     gap: 5rem;
 }
 
-a{
+a {
     display: block;
     list-style-type: none;
     text-decoration: none;
     margin-top: 22px;
     color: #FAFAFA;
-    font-size: 15px; 
+    font-size: 15px;
 }
 
-#email{
+#email {
     border-radius: 20px;
     padding: 11px;
     margin-top: 2rem;
 }
 
-#submit-button{
+#submit-button {
     background-color: #f25f3a;
     padding: 12px 25px;
     border-radius: 35px;
@@ -265,13 +278,335 @@ a{
     font-weight: 700;
 }
 
-.copyright{
+.copyright {
     color: #FAFAFA;
     font-size: 12px;
     margin-top: 4rem;
 }
 
+@media screen and (max-width: 992px) {
+
+    main {
+        padding: 6rem 3rem 5rem;
+    }
+
+    #main-text h1 {
+        font-size: 33px;
+        font-weight: 900;
+        width: 120%;
+    }
+
+    section {
+        padding: 2rem 4rem 5rem 4rem;
+    }
+
+    #first-section h1 {
+        font-size: 36px;
+        width: 120%;
+    }
+
+    #first-section p {
+        font-size: 17px;
+        width: 100%;
+    }
+
+    #sub-sections {
+        width: 55%;
+    }
+    
+    .a{
+        font-size: smaller;
+        white-space: nowrap;
+        width: 100%;
+        padding-left: -80px;
+    }
+
+    article .testimonials {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media screen and (max-width: 768px){
+
+    body{
+        width: 100%;
+    }
+    
+    nav button{
+        display: none;
+    }
+
+    nav img{
+        width: 18%;
+    }
+
+    nav ul{
+        gap: 12px;
+    }
+
+    main{
+        padding: 3rem 2rem 5rem 2rem;
+    }
+
+    #main-text h1{
+        font-size: 26px;
+        font-weight: 800;
+    }
+
+    .a{
+        white-space: inherit;
+    }
+
+    #first-section h1{
+        font-size: 30px;
+    }
+
+    #sub-sections {
+        width: 59%;
+    }
+
+    #lower-section{
+        padding: 3rem 2rem;
+    }
+
+    #lower-section h1 {
+        font-size: 25px;
+    }
+
+    footer{
+        padding: 2rem 1rem 3rem 1rem;
+    }
+
+    .middle-footer {
+        gap: 1.5rem;
+    }
+
+    .footer-list a{
+        font-size: 13px;
+    }
+
+    #email {
+        padding: 0;
+        margin-top: 1rem;
+    }
+
+    #submit-button {
+        padding: 6px 14px;
+    }
+}
+
+@media screen and (max-width: 576px){
+
+    .togglers{
+        display: block;
+        }
+       .ri-close-circle-line{
+        display: none;
+    }
+     
+    nav ul{
+        position: fixed;
+        flex-direction: column;
+        background: white;
+        width: 70%;
+        top: -32%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 1rem 0;
+        gap: 30px;
+        border-radius: 10px;
+        border: 1px solid grey;
+        transition: .5s;
+        z-index: 100;
+    }
+
+    nav{
+        margin: 2rem -7rem;
+    }
+
+    nav img {
+        width: 20%;
+        margin-left: 15px;
+    }
+
+    .menu {
+        display: block;
+        width: 15%;
+    }
+
+    main {
+        padding: 3rem 1rem 5rem 1rem;
+    }
+
+    section{
+        padding: 2rem 1rem;
+        width: 100%;
+    }
+
+    #first-section {
+        margin-left: 1rem;
+    }
+
+    #sub-sections{
+        margin-right: 2.5rem;
+    }
+
+    #first-section h1{
+        font-size: 21px;
+        font-weight: 800;
+    }
+
+    .a{
+        margin-bottom: -15px;
+    }
+
+    .a h3 {
+        font-size: 15px;
+    }
+
+    .a h4{
+        margin-bottom: 60px;
+        margin-top: 50px;
+        margin-right: -5px;
+    }
+
+    article .testimonials {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    article .testimonials .article-img{
+        align-items: center;
+        margin-left: 65px;
+    }
+
+    article button{
+        margin-left: -2.5rem;
+    }
 
 
+    footer {
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem 2rem 3rem 2rem;
+    }
 
+    .icons{
+        margin-top: -40px;
+    }
+
+    .footer-list a{
+        font-size: 15px;
+    }
+
+    #email {
+        padding: 7px;
+    }
+}
+
+@media screen and (max-width: 480px){
+
+    nav{
+        padding: 0rem 2rem;
+    }
+
+    main{
+        flex-direction: column-reverse;
+        padding: 3rem 1rem 5rem 1rem;
+    }
+
+    #main-text {
+        width: 70%;
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    #main-text h1 {
+        font-size: 29px;
+    }
+
+    #main-text p {
+        line-height: 1.4;
+        font-size: 18px;
+        width: 120%;
+    }
+
+    #main-img{
+        width: 350px !important;
+        padding-left: 35px;
+        position: relative;
+        top: -30px;
+    }
+    
+    #main-text button{
+        margin-left: 25px;
+    }
+
+    section {
+        flex-direction: column;
+        padding: 32px 13px;
+        padding-left: 1px;
+    }
+
+    #first-section {
+        width: 90%;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+    #first-section h1{
+        padding-right: 40px;
+    }
+
+    #first-section p{
+        padding-left: 0px;
+        width: 110%;
+    }
+
+    .a{
+        margin-top: 1rem;
+        margin-left: -20px;
+    }
+
+    .a h3{
+        white-space: nowrap;
+        margin-top: 80px;
+    }
+
+    .a h4 {
+        /* margin-top: 50px; */
+        margin-top: 75px;
+    }
+
+     {
+        display: flex;
+        gap: 0;
+        margin-bottom: 3rem;
+    }
+
+    .subject1 p{
+        line-height: 1.5;
+        font-size: 18px;
+        width: 130%;
+        margin-left: 80px;
+     }
+
+     article .testimonials .article-img {
+        margin-left: -15px;
+    }
+
+    #lower-section {
+        flex-direction: column;
+        gap: 1rem;
+        padding: 3rem 0;
+    }
+
+    #lower-section h1 {
+        font-size: 32px;
+        line-height: 1.4;
+        width: 60%;
+        text-align: center;
+    }
+}
+    
 
