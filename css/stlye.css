@@ -57,12 +57,7 @@ button {
     background-color: #f25f3a;
     color: #FAE2AF;
     cursor: pointer;
-    box-shadow: 3px 3px 10px #F8A591;
-}
-
-button:hover {
-    background-color: #AB95AF;
-    box-shadow: 3px 3px 10px #f25f3a;
+    /* box-shadow: 3px 3px 10px #F8A591; */
 }
 
 main {
@@ -149,7 +144,7 @@ section {
     margin-left: 100px;
     color: #9095AF;
     width: 80%;
-    line-height: 1.5em;
+    line-height: 1.5;
 }
 
 article h1 {
@@ -167,22 +162,55 @@ article .testimonials {
     padding: 10px 50px;
 }
 
-article .testimonials .article-img {
-    text-align: center;
-    width: 11.5em;
-    padding-left: 98px;
-}
-
 article .testimonials .testimony h5 {
     text-align: center;
     margin: 20px 0;
     font-size: 1.4em;
-    font-weight: 1000;
+    font-weight: 580;
 }
 
 article .testimonials .testimony p {
     text-align: center;
     color: #AB95AF;
+    background-color: #FFEFEB;
+    padding: 0.8rem 1rem;
+}
+
+.testimony{
+    margin-top: -32px;
+    background-color: #FFEFEB;
+    padding: 2rem 0 10px;
+}
+
+.testimonial1,.testimonial2,.testimonial3,.testimonial4{
+    margin: 80px 20px 0;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.owl-dots{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.owl-dot{
+    padding: 4px;
+    background-color: grey;
+    border-radius: 50px;
+}
+.owl-nav{
+    display: none;
+}
+.owl-dot.active{
+    background-color: #f25f3a;
+}
+
+.article-img{
+    width: 25% !important;
+    margin: 0 auto;
+    text-align: center;
 }
 
 article button {
@@ -323,6 +351,18 @@ a {
 
     article .testimonials {
         grid-template-columns: repeat(2, 1fr);
+        gap: 80px;
+    }
+
+    .article-img{
+        position: relative;
+        top: -60px;
+        right: -40px;
+    }
+
+    .testimonial3,.testimonial4{
+        position: relative;
+        top: 20px;
     }
 
 }
@@ -352,6 +392,11 @@ a {
     #main-text h1{
         font-size: 26px;
         font-weight: 800;
+    }
+
+    article .testimonials .article-img{
+        position: relative;
+        right: 30px;
     }
 
     .a{
@@ -479,11 +524,14 @@ a {
 
     article .testimonials {
         grid-template-columns: repeat(1, 1fr);
+        gap: 80px;
     }
 
     article .testimonials .article-img{
         align-items: center;
         margin-left: 65px;
+        position: relative;
+        right: 2px;
     }
 
     article button{
@@ -519,7 +567,7 @@ a {
     nav{
         padding: 0rem 2rem;
         justify-content: space-around;
-        padding-left: 150px;
+        padding-left: 110px;
     }
 
     nav img{
@@ -582,7 +630,7 @@ a {
 
     .a{
         margin-top: 1rem;
-        margin-left: -20px;
+        margin-left: -30px;
     }
 
     .a h3{
@@ -595,11 +643,11 @@ a {
         margin-top: 75px;
     }
 
-     {
+     /* {
         display: flex;
         gap: 0;
         margin-bottom: 3rem;
-    }
+    } */
 
     .subject1 p{
         line-height: 1.5;
@@ -608,8 +656,14 @@ a {
         margin-left: 80px;
      }
 
+     article .testimonials{
+        gap: 80px;
+     }
+
      article .testimonials .article-img {
         margin-left: -15px;
+        position: relative;
+        right: -18px;
     }
 
     #lower-section {
